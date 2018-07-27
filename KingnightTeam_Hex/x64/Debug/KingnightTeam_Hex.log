@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/7/15 星期日 上午 11:37:27。
+     1>项目“D:\qt\qtCode\publish2\KingnightTeam_Hex\KingnightTeam_Hex.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (KingnightTeam_Hex.vcxproj, KingnightTeam_Hex.vcxproj, KingnightTeam_Hex.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_chessboard.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_chessboard.cpp, Release\moc_chessboard.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_handle.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_handle.cpp, Release\moc_handle.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_mainwindow.cpp, Release\moc_mainwindow.cpp.
+     1>ClCompile:
+         D:\Visual Studio 2013\installationPath\VC\bin\x86_amd64\CL.exe /c /I. /IF:\qt\installationPath\5.6\msvc2013_64\include /IF:\qt\installationPath\5.6\msvc2013_64\include\QtWidgets /IF:\qt\installationPath\5.6\msvc2013_64\include\QtGui /IF:\qt\installationPath\5.6\msvc2013_64\include\QtANGLE /IF:\qt\installationPath\5.6\msvc2013_64\include\QtCore /Idebug /I. /I"F:\qt\installationPath\5.6\msvc2013_64\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 alphabetasearch.cpp chessboard.cpp Debug\moc_chessboard.cpp Debug\moc_handle.cpp Debug\moc_mainwindow.cpp finalalgorithm.cpp handle.cpp judgeiswin.cpp main.cpp mainwindow.cpp negativemaxminsearch.cpp play.cpp playchess_start.cpp uctsearch.cpp
+         alphabetasearch.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         chessboard.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         moc_chessboard.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         moc_handle.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         moc_mainwindow.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\debug\../mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         finalalgorithm.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         handle.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         judgeiswin.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         main.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         mainwindow.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\mainwindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         negativemaxminsearch.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         play.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         playchess_start.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         uctsearch.cpp
+     1>d:\qt\qtcode\publish2\kingnightteam_hex\judgeiswin.h(7): fatal error C1083: 无法打开包括文件: “isHasPathWillMustWin.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\qt\qtCode\publish2\KingnightTeam_Hex\KingnightTeam_Hex.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:12.66
